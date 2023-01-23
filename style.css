@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    
+    padding: 2rem 10rem;
+}
+.top_navbar{
+    display: flex;
+}
+.top_navbar .navbar {
+    margin-left: 50px;
+}
+.top_navbar .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    
+}
+ .cart{
+    margin-left: 20rem;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+.top_navbar .navbar ul li a{
+    color: rgb(123, 131, 131);
+}
+.container{
+    margin-top: 7rem;
+    padding: 0.5rem 4rem;
+}
+
+.container img{
+    border-radius: 10px;
+}
+
+
+.product table {
+    margin-top: 14px;
+    
+}
+.product table, tr, td{
+    border-spacing: 10px;
+}
+.sneaker_company{
+    text-align: center;
+    margin-left: 15rem;
+    margin-top: -24rem;
+}
+.sneaker_company h3{
+    color: rgb(231, 70, 12);
+    margin-right: 13rem;
+    margin-bottom: 10px;
+}
+.sneaker_company h1{
+    margin-left: 10rem;
+    font-size: 30px;
+    margin-bottom: 14px;
+    text-align: start;
+}
+.sneaker_company p{
+    text-align: start;
+    margin-left: 10rem;
+    
+}
+
+.sneaker_company h2{
+    margin-right: 15rem;
+    margin-top: 15px;
+
+}
+
+.sneaker_company h2 span{
+    margin-right: 2.5rem;
+    color: rgb(213, 209, 218);
+    margin-top: 20px;
+}
+
+.sneaker_company h2 button{
+    padding: 2px;
+    margin-left: 6px;
+    background-color: rgb(240, 228, 207);
+    border: none;
+}
+.sneaker_company h2 button a{
+    color: orange;
+
+}
+.sneaker_company .buy_goods  button{
+   margin-right: 15.5rem; 
+   padding: 3px 10px;
+   border: none;
+   margin-top: 20px;
+
+}
+.sneaker_company .buy_goods  button a{
+    color: orange;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+.sneaker_company .buy_goods  button a span{
+    color: black;
+}
+.sneaker_company .last_part button{
+    padding: 6px 20px;
+    margin-left: 50px;
+    background-color: orange;
+    border: none;
+    margin-top: -10rem;
+} 
+
+.sneaker_company .last_part button a{
+     font-size: 18px;
+     color: white;
+}
